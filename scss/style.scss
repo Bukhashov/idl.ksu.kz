@@ -28,6 +28,8 @@ body{
     margin: 0 auto;
     padding: 0 15px;
 
+    display: flex;
+
 }
 
 // ====================================================================
@@ -74,4 +76,9 @@ body{
         background-color: #fff;
         border-radius: 10px;
     }
+}
+#menu__output{
+    position: absolute;
+    z-index: 1;
+
 }
