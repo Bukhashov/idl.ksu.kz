@@ -1,0 +1,77 @@
+// icon
+$icon__max-size: 48px;
+$icon__size: 32px;
+
+
+
+// #########################################################
+*,
+* ::after,
+* ::before{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #ECF0F1;
+    font-size: 14px;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+// ====================================================================
+.container{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+// ====================================================================
+// header
+.header{
+    width: 200px;
+    height: 100vh;
+    position: relative;
+    
+    display: grid;
+    // justify-content: start;
+    align-content: start;
+}
+
+.logo{
+    margin: 40px 0 40px 0;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    img{
+        max-width: 135px;
+        width: 80px;
+        height: 80px;
+    }
+
+    
+
+}
+// menu
+.menu{
+    width: 100%;
+    display: grid;
+    align-items: center;
+
+    a{ 
+        font-size: 14px;
+        color: #000;
+        text-decoration: none;
+        margin: 5px 10px;
+        padding: 10px 25px;
+    }
+    
+    a:hover{
+        background-color: #fff;
+        border-radius: 10px;
+    }
+}
